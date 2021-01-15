@@ -29,5 +29,14 @@ module ScheduleShare
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    
+    # Don't generate stylesheets files.
+    config.generators.stylesheets = nil
+    
+    # Don't generate javascripts files.
+    config.generators.javascripts = nil
+    
+    # Don't generate helper files.
+    config.generators.helper = nil
   end
 end
